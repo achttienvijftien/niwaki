@@ -7,10 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] 2023-09-11
+
+### Fixed
+
+- Remove non-existent autoloaded file from composer.json
+
 ## [1.0.0] 2023-09-11
 
 - First release
 
-[unreleased]: https://github.com/achttienvijftien/niwaki/compare/1.0.0...main
+[unreleased]: https://github.com/achttienvijftien/niwaki/compare/1.0.1...main
 
+[1.0.1]: https://github.com/achttienvijftien/niwaki/compare/1.0.0...1.0.1
 [1.0.0]: https://github.com/achttienvijftien/niwaki/compare/26a0199...1.0.0

@@ -11,10 +11,7 @@
   "autoload": {
     "psr-4": {
       "AchttienVijftien\\Niwaki\\": "src/"
-    },
-    "files": [
-      "src/Matcher/namespace.php"
-    ]
+    }
   },
   "autoload-dev": {
     "psr-4": {
