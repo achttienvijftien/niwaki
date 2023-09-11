@@ -1,0 +1,44 @@
+{
+  "name": "achttienvijftien/niwaki",
+  "description": "Traverse and transform DOM trees",
+  "type": "library",
+  "require-dev": {
+    "dealerdirect/phpcodesniffer-composer-installer": "*",
+    "phpunit/phpunit": "^10.0",
+    "spatie/phpunit-watcher": "^1.23"
+  },
+  "license": "GPL-3.0-or-later",
+  "autoload": {
+    "psr-4": {
+      "AchttienVijftien\\Niwaki\\": "src/"
+    },
+    "files": [
+      "src/Matcher/namespace.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AchttienVijftien\\Niwaki\\Tests\\": "tests/"
+    }
+  },
+  "scripts": {
+    "format": "phpcbf --report-summary --report-source",
+    "lint": "phpcs",
+    "test": "phpunit"
+  },
+  "authors": [
+    {
+      "name": "1815",
+      "email": "it@1815.nl"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^8.0"
+  },
+  "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  }
+}
